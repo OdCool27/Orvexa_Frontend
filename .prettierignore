@@ -1,0 +1,5 @@
+node_modules
+dist
+package-lock.json
+.local-demo
+Osyntra_MVP_Architecture_and_Phases_v2.md

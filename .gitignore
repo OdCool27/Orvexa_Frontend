@@ -1,0 +1,53 @@
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+
+# Local environment configuration; commit only public example values
+.env
+.env.*
+!.env.example
+.npmrc
+.yarnrc.yml
+
+# Credentials, private keys and local cloud configuration
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+credentials.json
+service-account*.json
+service_account*.json
+.aws/
+.azure/
+.gcloud/
+.ssh/
+
+# Local demo data, databases, logs and captures
+.local-demo/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.log
+*.har
+
+# Personal IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
